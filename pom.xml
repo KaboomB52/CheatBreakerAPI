@@ -18,18 +18,11 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-    </repositories>
-
-    <distributionManagement>
         <repository>
-            <id>frozenorb-repo</id>
-            <url>https://repo.frozenorb.net/repository/maven-releases/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io/</url>
         </repository>
-        <snapshotRepository>
-            <id>frozenorb-repo</id>
-            <url>https://repo.frozenorb.net/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+	</repositories>
 
     <build>
         <finalName>${project.artifactId}</finalName>
@@ -108,9 +101,9 @@
             <version>1.16.10</version>
         </dependency>
         <dependency>
-            <groupId>com.cheatbreaker</groupId>
-            <artifactId>CheatBreakerAPINetHandler</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+			<groupId>com.github.KaboomB52</groupId>
+			<artifactId>CheatBreakerAPINetHandler</artifactId>
+			<version>1.0</version>
+		</dependency>
     </dependencies>
 </project>
